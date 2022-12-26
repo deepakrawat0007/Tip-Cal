@@ -1,0 +1,85 @@
+body{
+    background-color: lightblue;
+}
+.half-cal{
+    background-color: white;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.half-cal , .half-cal2{
+    border-radius: 5px;
+    margin-top: 15vh;
+    padding: 10px;
+    height: 55vh;
+    width: 30vw;
+}
+.head{
+    margin-top: 20px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+input{
+    border-radius: 5px;
+    background-color: lightgray;
+    border: 0;
+    width: 23vw;
+    height: 30px;
+    margin-bottom: 5px;
+}
+.buttons > button{
+    width: 8vw;
+    height: 5vh;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color:darkcyan;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    color: antiquewhite;
+
+}
+#people{
+    margin-bottom: 20px;
+}
+.bill-input, .tip-selection,.No-of-people{
+    margin-left: 5%;
+}
+.display-tip , .display-total{
+    
+    background-color: darkcyan;
+    width: 110px;
+}
+.half-cal2{
+    background-color: darkcyan;
+}
+.tip-amt , .total-amt{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+label{
+    color: white;
+}
+#reset{
+
+    margin-top: 15%;
+    height: 6vh;
+    width: 30vw;
+    background-color: rgb(9, 97, 97);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+.total-amt  {
+    font-size: 35px;
+    color: azure;
+    height:15vh;
+    
+}
+.tip-amt {
+    color: white;
+    font-size: 35px;
+  
+}
